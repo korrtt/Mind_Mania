@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(135deg, #f3ec78, #af4261);
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #735B2E;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+}
+
+.info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px; 
+}
+
+.icon-container {
+    border: 2px solid #735B2E; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.icons img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.buttons {
+    padding-top: 20px;
+}
+
+.back-button {
+    background-color: #f7931a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-button:hover {
+    background-color: #d87d14;
+    transform: translateY(-3px);
+}
+
+.back-button:active {
+    background-color: #b06210;
+    transform: translateY(0);
+}
+
+.output {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.task-list {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.task-list h3 {
+    margin: 10px 0 5px;
+}
+
+.task-list p {
+    margin: 0;
+}
+
+.spacer {
+    height: 20px; 
+}
+
+.referral-list {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.referral-list p {
+    margin: 5px 0;
+}
